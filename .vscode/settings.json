@@ -1,0 +1,16 @@
+// kaboomthingy
+{
+	"files.exclude": {
+		"node_modules": true,
+		"helper.ts": true,
+		"multiplayer.js": true,
+		"package-lock.json": true,
+		"package.json": true,
+		"run.js": true,
+		"template.html": true,
+		"README.md": true,
+		"dist": true,
+		"kb-bundle-file.bat": true,
+		"kb-export.zip": true,
+	}
+}
