@@ -6,7 +6,7 @@
 		{
 			// The reason why you can't zip in this one is because the command lines closes after
 			// Bundling the game for some reason
-			"label": "Bundle KABOOM.jS",
+			"label": "BUNDLE kaboom.js",
 			"type": "shell",
 			"command": "Start-Process kb-bundle-file.bat",
 			"group": {
@@ -15,16 +15,16 @@
 		},
 		{
 			// For this to work you need to have installed 7z
-			"label": "Zip KABOOM.js",
+			"label": "ZIP kaboom.js",
 			"type": "shell",
 			"command": "7z.exe a -tzip 'kb-export.zip' './export'",
 		},
 		{
 			// For this to work you need to have installed butler in your path
 			// To use this one you don't need to necessarily zip the export folder
-			"label": "Upload to itch.io KABOOM.js",
+			"label": "BUTLER kaboom.js",
 			"type": "shell",
-			"command": "butler push export amyspark-ng/butler-test:html5 --userversion 1.0",
+			"command": "Start-Process kb-butler-file.bat",
 		},
 	]
 }

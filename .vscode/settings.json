@@ -11,6 +11,7 @@
 		"README.md": true,
 		"dist": true,
 		"kb-bundle-file.bat": true,
+		"kb-butler-file.bat": true,
 		"kb-export.zip": true,
 	}
 }
